@@ -50,7 +50,7 @@ public class MyUtils {
     Cookie cookieUserName = new Cookie(ATT_NAME_USER_NAME, user.getUserName());
 
     // 1 day (Convert to seconds)
-    cookieUserName.setMaxAge(24 * 60 * 60);
+    cookieUserName.setMaxAge(12 * 60 * 60);
     response.addCookie(cookieUserName);
   }
 
